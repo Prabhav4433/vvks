@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vishwas K Sharma - Automotive Industry Leader & Entrepreneur</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            background: #f5f5f5;
+        }
+
+        .resume {
+            background: white;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+            padding: 3rem;
+            border-radius: 8px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 1rem;
+        }
+
+        .header h1 {
+            color: #2c3e50;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .header h2 {
+            color: #34495e;
+            font-size: 1.5rem;
+            font-weight: normal;
+            margin-bottom: 1rem;
+        }
+
+        .contact-info {
+            margin-bottom: 1rem;
+        }
+
+        .contact-info p {
+            margin: 0.2rem 0;
+        }
+
+        .section {
+            margin: 2rem 0;
+        }
+
+        .section-title {
+            color: #2c3e50;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #3498db;
+        }
+
+        .experience-item {
+            margin-bottom: 1.5rem;
+        }
+
+        .experience-item h3 {
+            color: #2c3e50;
+            font-size: 1.2rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .experience-item h4 {
+            color: #3498db;
+            font-size: 1.1rem;
+            font-weight: normal;
+            margin-bottom: 0.3rem;
+        }
+
+        .experience-item ul {
+            list-style-type: none;
+            padding-left: 1.2rem;
+        }
+
+        .experience-item ul li {
+            position: relative;
+            margin: 0.5rem 0;
+        }
+
+        .experience-item ul li::before {
+            content: "•";
+            color: #3498db;
+            position: absolute;
+            left: -1rem;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .skill-item {
+            background: #f0f7ff;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: #2c3e50;
+        }
+
+        .education-item {
+            margin-bottom: 1.5rem;
+        }
+
+        .education-item h3 {
+            color: #2c3e50;
+            margin-bottom: 0.3rem;
+        }
+
+        .education-item p {
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+
+            .resume {
+                padding: 1.5rem;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .header h2 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <div class="header">
+            <h1>VISHWAS K SHARMA</h1>
+            <h2>Automotive Industry Leader & Entrepreneur</h2>
+            <div class="contact-info">
+                <p>Mumbai, India</p>
+                <p>Viws14@gmail.com | +91 7874629887</p>
+                <p><a href="https://www.linkedin.com/in/vishwas-sharma-4bba713/" target="_blank">LinkedIn Profile</a></p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">PROFESSIONAL SUMMARY</h2>
+            <p>Strategic automotive industry leader with 25+ years of progressive experience across manufacturing operations, international business development, and executive leadership. Proven expertise in establishing and scaling operations across Asian and African markets. Combines Japanese manufacturing excellence with global business acumen. Currently expanding into the wellness sector with an innovative Ayurvedic venture.</p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">PROFESSIONAL EXPERIENCE</h2>
+            
+            <div class="experience-item">
+                <h3>MAW Nepal (Tata Motors Distributor)</h3>
+                <h4>Country Head - Nepal Operations (2019 - Present)</h4>
+                <ul>
+                    <li>Lead end-to-end business operations with P&L responsibility of NPR 5000+ million</li>
+                    <li>Expanded dealer network by 40% establishing 15 new strategic locations</li>
+                    <li>Achieved market leadership in commercial vehicle segment with 35% share</li>
+                    <li>Implemented digital transformation initiatives reducing operational costs by 30%</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3>Setco Automotive Ltd.</h3>
+                <h4>Director - International Business (2015 - 2019)</h4>
+                <ul>
+                    <li>Spearheaded business expansion across African continent</li>
+                    <li>Established state-of-the-art manufacturing facility in Nairobi, Kenya</li>
+                    <li>Developed distribution network across 12 African countries</li>
+                    <li>Achieved consistent 45% YoY growth in African markets</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">EDUCATION</h2>
+            
+            <div class="education-item">
+                <h3>Motilal Nehru National Institute of Technology (MNNIT), Allahabad</h3>
+                <p>B.Tech in Mechanical Engineering (1996)</p>
+                <p>First Division with Distinction</p>
+            </div>
+
+            <div class="education-item">
+                <h3>NMIMS Mumbai</h3>
+                <p>MBA (Distance Learning) - Operations & International Business (2002)</p>
+                <p>Specialization in Global Supply Chain Management</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">SKILLS & EXPERTISE</h2>
+            <div class="skills">
+                <span class="skill-item">Strategic Business Leadership</span>
+                <span class="skill-item">International Operations Management</span>
+                <span class="skill-item">Manufacturing Excellence</span>
+                <span class="skill-item">Cross-Cultural Team Management</span>
+                <span class="skill-item">Japanese Manufacturing Systems</span>
+                <span class="skill-item">Quality Management Systems</span>
+                <span class="skill-item">Supply Chain Optimization</span>
+                <span class="skill-item">Business Development</span>
+                <span class="skill-item">Change Management</span>
+                <span class="skill-item">Entrepreneurship</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">CERTIFICATIONS</h2>
+            <ul>
+                <li>Japanese Manufacturing Excellence (Mitsubishi Motors)</li>
+                <li>Six Sigma Black Belt</li>
+                <li>ISO/TS 16949 Lead Auditor</li>
+                <li>Project Management Professional (PMP)</li>
+                <li>International Trade Operations (IIFT)</li>
+                <li>GMP Certification for Ayurvedic Manufacturing</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">LANGUAGES</h2>
+            <div class="skills">
+                <span class="skill-item">English (Professional)</span>
+                <span class="skill-item">Hindi (Native)</span>
+                <span class="skill-item">Japanese (Business Level)</span>
+                <span class="skill-item">Nepali (Professional Working)</span>
+                <span class="skill-item">Swahili (Basic)</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
